@@ -4,17 +4,17 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
 body {
-background: linear-gradient(to right, rgb(184, 230, 255), rgb(7, 164, 179));
-display: flex;
-justify-content: center;
-align-items: center;
-min-height: 100vh;
-overflow: hidden;
-}
+  background: linear-gradient(to right, rgb(184, 230, 255), rgb(7, 164, 179));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  }
 
 .clock {
-    width: 500px;
-   height: 500px;
+   width: 400px;
+   height: 400px;
    background-color: rgba(153, 187, 166, 0.658);
    border-radius: 50%;
    border: 5px solid black;
@@ -93,4 +93,28 @@ transform: translateX(-50%) rotate(calc(var(--rotation)*1deg));
     background-color: black;
   }
 
-
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(33, 44, 80);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(136, 156, 145);
+    text-align: center;
+    padding: 15px 30px ;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
